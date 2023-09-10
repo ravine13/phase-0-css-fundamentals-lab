@@ -3,6 +3,10 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  margin-inline: left;
+  text-align: center;
+}
 
 h1 {
   color: #444;
@@ -46,8 +50,18 @@ figcaption {
   }
 
   #details div {
-    float: left;
-    width: 25%;
+    float: right;
+    margin-right: 20px;
+    width: 25%; 
     text-align: center; 
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
+    padding: 10px; 
+    display: flex;
+  }
+
+  #details {
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px; 
   }
